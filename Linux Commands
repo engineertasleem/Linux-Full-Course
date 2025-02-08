@@ -1,0 +1,256 @@
+--> File and Directory Management
+
+ls 
+Definition: Lists files and directories in the current directory.
+
+Example: ls -l (detailed list), ls -a (includes hidden files).
+
+cd 
+Definition: Changes the current directory.
+
+Example: cd /home/user (navigate to /home/user).
+
+pwd
+Definition: Prints the current working directory.
+
+Example: pwd.
+
+mkdir
+Definition: Creates a new directory.
+
+Example: mkdir new_folder.
+
+rmdir
+Definition: Removes an empty directory.
+
+Example: rmdir empty_folder.
+
+rm
+Definition: Removes files or directories.
+
+Example: rm file.txt, rm -r folder (recursively remove a directory).
+
+cp
+Definition: Copies files or directories.
+
+Example: cp file.txt /backup/.
+
+mv
+Definition: Moves or renames files or directories.
+
+Example: mv file.txt new_name.txt.
+
+touch
+Definition: Creates an empty file or updates the timestamp of an existing file.
+
+Example: touch new_file.txt.
+
+cat
+Definition: Displays the contents of a file.
+
+Example: cat file.txt.
+
+more / less
+Definition: Displays file content one screen at a time.
+
+Example: more file.txt, less file.txt.
+
+head
+Definition: Displays the first few lines of a file.
+
+Example: head -n 10 file.txt.
+
+tail
+Definition: Displays the last few lines of a file.
+
+Example: tail -n 10 file.txt.
+
+find
+Definition: Searches for files and directories.
+
+Example: find /home -name "file.txt".
+
+grep
+Definition: Searches for patterns in files.
+
+Example: grep "search_term" file.txt.
+
+--> System Information
+
+uname
+Definition: Displays system information.
+
+Example: uname -a (all system info).
+
+df
+Definition: Shows disk space usage.
+
+Example: df -h (human-readable format).
+
+du
+Definition: Displays disk usage of files and directories.
+
+Example: du -sh /home.
+
+top / htop
+Definition: Displays real-time system processes and resource usage.
+
+Example: top.
+
+ps
+Definition: Displays information about running processes.
+
+Example: ps aux.
+
+free
+Definition: Shows memory usage.
+
+Example: free -h.
+
+uptime
+Definition: Displays how long the system has been running.
+
+Example: uptime.
+
+--> Networking
+
+ping
+Definition: Tests connectivity to a host.
+
+Example: ping google.com.
+
+ifconfig / ip
+Definition: Displays or configures network interfaces.
+
+Example: ifconfig, ip addr.
+
+netstat
+Definition: Displays network connections, routing tables, and interface statistics.
+
+Example: netstat -tuln.
+
+ssh
+Definition: Connects to a remote server securely.
+
+Example: ssh user@hostname.
+
+scp
+Definition: Securely copies files between hosts.
+
+Example: scp file.txt user@hostname:/path.
+
+wget / curl
+Definition: Downloads files from the web.
+
+Example: wget http://example.com/file, curl -O http://example.com/file.
+
+--> Permissions and Ownership
+
+chmod
+Definition: Changes file permissions.
+
+Example: chmod 755 script.sh.
+
+chown
+Definition: Changes file ownership.
+
+Example: chown user:group file.txt.
+
+chgrp
+Definition: Changes the group ownership of a file.
+
+Example: chgrp group_name file.txt.
+
+--> Package Management
+
+apt (Debian/Ubuntu)
+Definition: Manages software packages.
+
+Example: apt install package_name.
+
+yum / dnf (Red Hat/CentOS/Fedora)
+Definition: Manages software packages.
+
+Example: yum install package_name.
+
+pacman (Arch Linux)
+Definition: Manages software packages.
+
+Example: pacman -S package_name.
+
+--> Compression and Archiving
+
+tar
+Definition: Archives files.
+
+Example: tar -cvf archive.tar folder.
+
+gzip / gunzip
+Definition: Compresses or decompresses files.
+
+Example: gzip file.txt, gunzip file.txt.gz.
+
+zip / unzip
+Definition: Compresses or decompresses files in ZIP format.
+
+Example: zip archive.zip file.txt, unzip archive.zip.
+
+--> Process Management
+
+kill
+Definition: Terminates a process by ID.
+
+Example: kill 1234.
+
+killall
+Definition: Terminates processes by name.
+
+Example: killall process_name.
+
+bg / fg
+Definition: Puts a process in the background or foreground.
+
+Example: bg, fg.
+
+--> Miscellaneous
+
+echo
+Definition: Displays a line of text.
+
+Example: echo "Hello, World!".
+
+man
+Definition: Displays the manual for a command.
+
+Example: man ls.
+
+history
+Definition: Displays command history.
+
+Example: history.
+
+alias
+Definition: Creates shortcuts for commands.
+
+Example: alias ll='ls -la'.
+
+shutdown
+Definition: Shuts down or reboots the system.
+
+Example: shutdown now, shutdown -r.
+
+reboot
+Definition: Reboots the system.
+
+Example: reboot.
+
+cron / crontab
+Definition: Schedules tasks.
+
+Example: crontab -e.
+
+ln
+Definition: Creates links between files.
+
+Example: ln -s target link_name (creates a symbolic link).
+
